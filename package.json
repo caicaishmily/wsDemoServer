@@ -1,0 +1,15 @@
+{
+  "name": "wsServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate-stocks-data": "node generateStocks.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "davechai <davecqx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fake-stock-market-generator": "^1.0.3",
+    "ws": "^7.2.3"
+  }
+}
